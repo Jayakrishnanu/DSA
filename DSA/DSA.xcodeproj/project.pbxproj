@@ -15,6 +15,9 @@
 		183D88D82C628A7B00DAA58B /* LinkedListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183D88D72C628A7B00DAA58B /* LinkedListTests.swift */; };
 		183D88DA2C62972700DAA58B /* Queues.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183D88D92C62972700DAA58B /* Queues.swift */; };
 		183D88DC2C629B5100DAA58B /* Trees.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183D88DB2C629B5100DAA58B /* Trees.swift */; };
+		183D88DE2C62A65800DAA58B /* BinaryNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183D88DD2C62A65800DAA58B /* BinaryNode.swift */; };
+		183D88E02C638F0F00DAA58B /* TrieNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183D88DF2C638F0F00DAA58B /* TrieNode.swift */; };
+		183D88E22C639BB700DAA58B /* Heap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183D88E12C639BB700DAA58B /* Heap.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +40,9 @@
 		183D88D72C628A7B00DAA58B /* LinkedListTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkedListTests.swift; sourceTree = "<group>"; };
 		183D88D92C62972700DAA58B /* Queues.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Queues.swift; sourceTree = "<group>"; };
 		183D88DB2C629B5100DAA58B /* Trees.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trees.swift; sourceTree = "<group>"; };
+		183D88DD2C62A65800DAA58B /* BinaryNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinaryNode.swift; sourceTree = "<group>"; };
+		183D88DF2C638F0F00DAA58B /* TrieNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrieNode.swift; sourceTree = "<group>"; };
+		183D88E12C639BB700DAA58B /* Heap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Heap.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +90,9 @@
 				183D88D52C62899600DAA58B /* LinkedList.swift */,
 				183D88D92C62972700DAA58B /* Queues.swift */,
 				183D88DB2C629B5100DAA58B /* Trees.swift */,
+				183D88DD2C62A65800DAA58B /* BinaryNode.swift */,
+				183D88DF2C638F0F00DAA58B /* TrieNode.swift */,
+				183D88E12C639BB700DAA58B /* Heap.swift */,
 			);
 			path = DSA;
 			sourceTree = "<group>";
@@ -207,9 +216,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				183D88C02C62897F00DAA58B /* DSA.docc in Sources */,
+				183D88E02C638F0F00DAA58B /* TrieNode.swift in Sources */,
 				183D88DC2C629B5100DAA58B /* Trees.swift in Sources */,
+				183D88DE2C62A65800DAA58B /* BinaryNode.swift in Sources */,
 				183D88DA2C62972700DAA58B /* Queues.swift in Sources */,
 				183D88D62C62899600DAA58B /* LinkedList.swift in Sources */,
+				183D88E22C639BB700DAA58B /* Heap.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
